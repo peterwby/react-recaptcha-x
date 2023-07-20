@@ -78,7 +78,7 @@ describe('ReCaptchaProvider', (): void => {
       it('has the correct src attribute', (): void => {
         expect(scriptTagNode).toHaveAttribute(
           'src',
-          `https://www.google.com/recaptcha/api.js?render=${EProps.siteKeyV3}&onload=GoogleReCaptcha_onload&hl=${EProps.langCode}`
+          `https://www.recaptcha.net/recaptcha/api.js?render=${EProps.siteKeyV3}&onload=GoogleReCaptcha_onload&hl=${EProps.langCode}`
         );
       });
 

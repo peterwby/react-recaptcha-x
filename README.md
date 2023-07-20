@@ -46,7 +46,7 @@ Most reCAPTCHA wrappers do not support both v3 and v2 at the same time properly.
 ### requirements
 
 1. [React 16.6.0+, 17.x or 18.x](https://reactjs.org/)
-1. reCAPTCHA v2 / v3 site key(s), which you can get from [here](https://www.google.com/recaptcha)
+1. reCAPTCHA v2 / v3 site key(s), which you can get from [here](https://www.recaptcha.net/recaptcha)
 
 ### installation
 
@@ -179,8 +179,8 @@ It is responsible for injecting the required Javascript Script Tag, CSS Style Ta
 
 | prop        | type    | default value | description                                                                                                                                                                                                        |
 | ----------- | ------- | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| siteKeyV2   | string  | empty         | reCAPTCHA v2 site key, which you can get from [here](https://www.google.com/recaptcha). Required, if you plan to use the v2 component                                                                              |
-| siteKeyV3   | string  | empty         | reCAPTCHA v3 site key, which you can get from [here](https://www.google.com/recaptcha). Required, if you plan to use the v3 component                                                                              |
+| siteKeyV2   | string  | empty         | reCAPTCHA v2 site key, which you can get from [here](https://www.recaptcha.net/recaptcha). Required, if you plan to use the v2 component                                                                              |
+| siteKeyV3   | string  | empty         | reCAPTCHA v3 site key, which you can get from [here](https://www.recaptcha.net/recaptcha). Required, if you plan to use the v3 component                                                                              |
 | langCode    | string  | auto-detected | Optional. Lanuage Code of the Widget. If provided, the v2 checkbox component, will be rendered in that language. For a list of available values, see [here](https://developers.google.com/recaptcha/docs/language) |
 | hideV3Badge | boolean | false         | Optional. If true, the v3 Badge will be hidden using css. Before using this, please make sure you have read the terms of hiding the badge [here](https://developers.google.com/recaptcha/docs/faq)                 |
 

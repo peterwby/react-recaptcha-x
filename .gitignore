@@ -4,3 +4,4 @@ dist/
 .env
 reports
 .vscode
+.history

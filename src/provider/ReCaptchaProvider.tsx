@@ -49,7 +49,7 @@ class ReCaptchaProvider extends React.Component<TProps, TState> {
       script.setAttribute('data-id', scriptDataId);
       script.setAttribute(
         'src',
-        `https://www.google.com/recaptcha/api.js?render=${siteKeyV3}&onload=GoogleReCaptcha_onload&hl=${langCode}`
+        `https://www.recaptcha.net/recaptcha/api.js?render=${siteKeyV3}&onload=GoogleReCaptcha_onload&hl=${langCode}`
       );
       script.setAttribute('async', 'true');
       script.setAttribute('defer', 'true');

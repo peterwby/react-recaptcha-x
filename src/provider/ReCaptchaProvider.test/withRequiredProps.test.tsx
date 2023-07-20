@@ -72,7 +72,7 @@ describe('ReCaptchaProvider', (): void => {
       it('has the correct src attribute', (): void => {
         expect(scriptTagNode).toHaveAttribute(
           'src',
-          `https://www.google.com/recaptcha/api.js?render=explicit&onload=GoogleReCaptcha_onload&hl=`
+          `https://www.recaptcha.net/recaptcha/api.js?render=explicit&onload=GoogleReCaptcha_onload&hl=`
         );
       });
 

@@ -1,5 +1,5 @@
 // Type definitions for Google Recaptcha 2.0 + 3.0 execute
-// Project: https://www.google.com/recaptcha
+// Project: https://www.recaptcha.net/recaptcha
 // Definitions by: Kristof Mattei <http://kristofmattei.be>
 //                 Martin Costello <https://martincostello.com/>
 //                 Ruslan Arkhipau <https://github.com/DethAriel>
