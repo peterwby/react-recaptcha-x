@@ -10,7 +10,7 @@
     "prettier": "npx prettier --check 'src/**/*.ts?(x)'",
     "lint": "eslint ./src --ext .js,.jsx,.ts,.tsx",
     "build": "npm run build:clean && npm run build:types && npm run build:js && npm run build:tscpaths",
-    "build:clean": "rm dist/* -rf",
+    "build:clean": "rm -rf dist/*",
     "build:types": "tsc -p tsconfig.build.json --emitDeclarationOnly",
     "build:js": "webpack --config ./webpack.config.js --progress",
     "build:tscpaths": "tsconfig-replace-paths -p tsconfig.build.json -s ./src -o ./dist",
