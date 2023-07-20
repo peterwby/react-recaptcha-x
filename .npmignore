@@ -1,7 +1,6 @@
 dev
 examples
 node_modules
-src
 .editorconfig
 .gitignore
 .npmignore
