@@ -2,7 +2,7 @@
   "name": "react-recaptcha-x",
   "version": "1.1.17",
   "description": "a React component for Google's reCAPTCHA v3 and v2 (checkbox) component. use www.recaptcha.net",
-  "main": "./dist/index.js",
+  "main": "./src/index.ts",
   "scripts": {
     "test": "TZ=UTC jest",
     "test:cov": "TZ=UTC jest --coverage",
