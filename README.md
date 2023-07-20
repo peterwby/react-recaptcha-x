@@ -50,7 +50,7 @@ Most reCAPTCHA wrappers do not support both v3 and v2 at the same time properly.
 
 ### installation
 
-`$npm install react-recaptcha-x --save`
+`$npm install @peterwby/react-recaptcha-x --save`
 
 ### simple javascript example
 
