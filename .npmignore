@@ -9,3 +9,4 @@ tslint.json
 webpack.config.js
 .travis.yml
 .history
+src
